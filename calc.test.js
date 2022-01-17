@@ -5,8 +5,6 @@ describe('answer is ', () => {
 	const ans2 = new calc(4, 2);
 	const ans3 = new calc(5, 2);
 
-	const ans = new calc(2, 2);
-
 	test('added', () => {
 		expect(ans1.add()).toBe(4);
 	});
@@ -18,8 +16,14 @@ describe('answer is ', () => {
 	});
 
 	test('subtracted', () => {
-		expect(ans.sub()).toBe(0);
-  });
+		expect(ans1.sub()).toBe(0);
+	});
+	test('subtracted', () => {
+		expect(ans2.sub()).toBe(2);
+	});
+	test('subtracted', () => {
+		expect(ans3.sub()).toBe(3);
+	});
 
 	test('multiplied', () => {
 		expect(ans.multiply()).toBe(4);
