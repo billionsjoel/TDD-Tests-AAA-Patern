@@ -26,9 +26,14 @@ describe('answer is ', () => {
 	});
 
 	test('multiplied', () => {
-		expect(ans.multiply()).toBe(4);
+		expect(ans1.multiply()).toBe(4);
 	});
-	test('divided', () => {
-		expect(ans.div()).toBe(1);
+	test('multiplied', () => {
+		expect(ans2.multiply()).toBe(8);
 	});
+	test('multiplied', () => {
+		expect(ans3.multiply()).toBe(10);
+	});
+
+
 });
