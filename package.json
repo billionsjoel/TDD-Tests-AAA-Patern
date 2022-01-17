@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jest": "^27.4.7",
+    "save-dev": "^0.0.1-security"
+  }
+}
