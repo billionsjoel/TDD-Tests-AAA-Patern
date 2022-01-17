@@ -1,8 +1,8 @@
 {
-  "dependencies": {
-    "save-dev": "^0.0.1-security"
-  },
   "devDependencies": {
     "jest": "^27.4.7"
+  },
+"scripts": {
+  "test":"jest"
   }
 }

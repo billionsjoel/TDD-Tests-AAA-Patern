@@ -4,7 +4,9 @@ let strLen = (str) => {
 	arr.forEach((element) => {
 		count++;
 	});
-	console.log(count);
+	return count;
 };
 
 strLen('james gasoline');
+
+module.exports = strLen;
