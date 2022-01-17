@@ -35,5 +35,13 @@ describe('answer is ', () => {
 		expect(ans3.multiply()).toBe(10);
 	});
 
-
+	test('divided', () => {
+		expect(ans1.div()).toBe(1);
+	});
+	test('divided', () => {
+		expect(ans2.div()).toBe(2);
+	});
+	test('divided', () => {
+		expect(ans3.div()).toBe(2.5);
+	});
 });
